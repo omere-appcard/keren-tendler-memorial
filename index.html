@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="דף הנצחה לקרן טנדלר ז״ל — המכונאית המוטסת הראשונה במערך המסוקים הכבדים של חיל האוויר הישראלי. Memorial page for Keren Tendler — Israel's first female heavy helicopter flight mechanic (1979–2006).">
+    <title>קרן טנדלר ז"ל | Keren Tendler Memorial</title>
+    <meta property="og:title" content="קרן טנדלר ז״ל | Keren Tendler Memorial">
+    <meta property="og:description" content="Memorial page for Keren Tendler — Israel's first female heavy helicopter flight mechanic (1979–2006).">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KerenPhoto.jpg/500px-KerenPhoto.jpg">
+    <meta property="og:type" content="profile">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Keren Tendler Memorial">
+    <meta name="twitter:description" content="Israel's first female heavy helicopter flight mechanic (1979–2006)">
+    <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KerenPhoto.jpg/500px-KerenPhoto.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Frank+Ruhl+Libre:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #C5A55A;
+            --gold-light: #E8D5A3;
+            --navy: #1B2A4A;
+            --navy-deep: #0F1B33;
+            --cream: #FAF6EE;
+            --white: #FFFFFF;
+            --text-dark: #2C2C2C;
+            --text-muted: #6B6B6B;
+            --border: #E5DED0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Frank Ruhl Libre', 'David Libre', serif;
+            background-color: var(--cream);
+            color: var(--text-dark);
+            line-height: 1.8;
+        }
+
+        /* Language Toggle */
+        .lang-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 4px;
+            background: rgba(27, 42, 74, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 4px;
+            border-radius: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        .lang-btn {
+            padding: 8px 18px;
+            border: none;
+            border-radius: 26px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            background: transparent;
+            color: rgba(255,255,255,0.6);
+            font-family: 'Inter', sans-serif;
+        }
+
+        .lang-btn.active {
+            background: var(--gold);
+            color: var(--navy-deep);
+        }
+
+        .lang-btn:hover:not(.active) {
+            color: rgba(255,255,255,0.9);
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--navy-deep) 0%, var(--navy) 50%, #2A3F6A 100%);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at 30% 20%, rgba(197, 165, 90, 0.08) 0%, transparent 60%),
+                        radial-gradient(ellipse at 70% 80%, rgba(197, 165, 90, 0.05) 0%, transparent 60%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            padding: 40px 20px;
+        }
+
+        .hero-portrait {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--gold);
+            box-shadow: 0 0 60px rgba(197, 165, 90, 0.3);
+            margin-bottom: 30px;
+            content-visibility: auto;
+        }
+
+        .hero h1 {
+            font-family: 'Frank Ruhl Libre', serif;
+            font-size: 3.5rem;
+            color: var(--white);
+            margin-bottom: 8px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .hero .en-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--gold-light);
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        .hero .dates {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 10px;
+        }
+
+        .hero .hebrew-dates {
+            font-family: 'Frank Ruhl Libre', serif;
+            font-size: 1rem;
+            color: rgba(255,255,255,0.45);
+            margin-bottom: 30px;
+        }
+
+        .hero .epitaph {
+            font-size: 1.3rem;
+            color: var(--gold-light);
+            max-width: 600px;
+            margin: 0 auto 30px;
+            font-style: italic;
+            line-height: 2;
+        }
+
+        .hero .epitaph-en {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.5);
+            max-width: 500px;
+            margin: 0 auto;
+            font-style: italic;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-indicator svg {
+            width: 30px;
+            height: 30px;
+            stroke: var(--gold-light);
+            opacity: 0.5;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-10px); }
+            60% { transform: translateX(-50%) translateY(-5px); }
+        }
+
+        /* Content Sections */
+        .section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 80px 30px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: var(--navy);
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--gold);
+            display: inline-block;
+        }
+
+        .section-title-en {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .divider {
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--border), transparent);
+            margin: 0;
+        }
+
+        /* Biography */
+        .bio-section {
+            background: var(--white);
+            border-top: 3px solid var(--gold);
+        }
+
+        .bio-text {
+            font-size: 1.15rem;
+            line-height: 2;
+            color: var(--text-dark);
+        }
+
+        .bio-text p {
+            margin-bottom: 20px;
+        }
+
+        .bio-text-en {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.85;
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* Timeline */
+        .timeline-section {
+            background: var(--cream);
+        }
+
+        .timeline {
+            position: relative;
+            padding-right: 40px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            right: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--gold);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 35px;
+            padding-right: 20px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            right: -40px;
+            top: 8px;
+            width: 14px;
+            height: 14px;
+            background: var(--gold);
+            border-radius: 50%;
+            border: 3px solid var(--cream);
+        }
+
+        .timeline-year {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            color: var(--gold);
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .timeline-text {
+            font-size: 1.05rem;
+            color: var(--text-dark);
+            margin-top: 4px;
+        }
+
+        .timeline-text-en {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* LTR timeline for English */
+        [dir="ltr"] .timeline {
+            padding-right: 0;
+            padding-left: 40px;
+        }
+
+        [dir="ltr"] .timeline::before {
+            right: auto;
+            left: 8px;
+        }
+
+        [dir="ltr"] .timeline-item {
+            padding-right: 0;
+            padding-left: 20px;
+        }
+
+        [dir="ltr"] .timeline-item::before {
+            right: auto;
+            left: -40px;
+        }
+
+        /* Military Service */
+        .military-section {
+            background: var(--navy);
+            color: var(--white);
+        }
+
+        .military-section .section-title {
+            color: var(--gold-light);
+            border-bottom-color: var(--gold);
+        }
+
+        .military-text {
+            font-size: 1.1rem;
+            line-height: 2;
+            color: rgba(255,255,255,0.85);
+        }
+
+        .military-text p {
+            margin-bottom: 18px;
+        }
+
+        .military-text-en {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            line-height: 1.85;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .highlight-box {
+            background: rgba(197, 165, 90, 0.1);
+            border-right: 3px solid var(--gold);
+            padding: 20px 25px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        [dir="ltr"] .highlight-box {
+            border-right: none;
+            border-left: 3px solid var(--gold);
+            border-radius: 8px 0 0 8px;
+        }
+
+        .highlight-box p {
+            color: var(--gold-light);
+            font-size: 1.15rem;
+            font-style: italic;
+        }
+
+        /* Last Battle */
+        .battle-section {
+            background: var(--navy-deep);
+            color: var(--white);
+        }
+
+        .battle-section .section-title {
+            color: var(--gold-light);
+            border-bottom-color: rgba(197, 165, 90, 0.4);
+        }
+
+        .battle-text {
+            font-size: 1.1rem;
+            line-height: 2;
+            color: rgba(255,255,255,0.8);
+        }
+
+        .battle-text p {
+            margin-bottom: 18px;
+        }
+
+        .battle-text-en {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            direction: ltr;
+            text-align: left;
+            line-height: 1.85;
+        }
+
+        /* Images */
+        .image-section {
+            background: var(--white);
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .image-card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .image-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .image-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .image-card .caption {
+            padding: 15px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            background: var(--cream);
+            text-align: center;
+        }
+
+        .image-card .caption-en {
+            font-family: 'Inter', sans-serif;
+            direction: ltr;
+        }
+
+        /* CH-53 helicopter image */
+        .helicopter-img {
+            width: 100%;
+            max-width: 600px;
+            margin: 30px auto;
+            display: block;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        /* Videos */
+        .video-section {
+            background: var(--cream);
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .video-card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            background: var(--white);
+        }
+
+        .video-card .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+
+        .video-card .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .video-card .video-title {
+            padding: 15px;
+            font-size: 1rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        .video-card .video-title-en {
+            font-family: 'Inter', sans-serif;
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* Legacy */
+        .legacy-section {
+            background: var(--white);
+            border-top: 3px solid var(--gold);
+        }
+
+        .legacy-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .legacy-card {
+            background: var(--cream);
+            padding: 30px;
+            border-radius: 12px;
+            border-top: 3px solid var(--gold);
+        }
+
+        .legacy-card h3 {
+            color: var(--navy);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .legacy-card h3.en {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .legacy-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .legacy-card p.en {
+            font-family: 'Inter', sans-serif;
+            direction: ltr;
+            text-align: left;
+        }
+
+        /* Links */
+        .links-section {
+            background: var(--navy);
+            color: var(--white);
+        }
+
+        .links-section .section-title {
+            color: var(--gold-light);
+            border-bottom-color: var(--gold);
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px 20px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+            transition: background 0.3s ease;
+            text-decoration: none;
+            direction: ltr;
+        }
+
+        .link-item:hover {
+            background: rgba(197, 165, 90, 0.15);
+        }
+
+        .link-item .link-icon {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(197, 165, 90, 0.2);
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .link-item .link-icon svg {
+            width: 18px;
+            height: 18px;
+            stroke: var(--gold-light);
+            fill: none;
+        }
+
+        .link-item .link-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.8);
+        }
+
+        .link-item:hover .link-text {
+            color: var(--gold-light);
+        }
+
+        /* Footer */
+        .memorial-footer {
+            background: var(--navy-deep);
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .memorial-footer .candle {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .memorial-footer .memorial-text {
+            font-size: 1.6rem;
+            color: var(--gold-light);
+            margin-bottom: 10px;
+        }
+
+        .memorial-footer .memorial-text-en {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.5);
+        }
+
+        .memorial-footer .dates-footer {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.3);
+            margin-top: 15px;
+        }
+
+        /* Language visibility */
+        .he-content { display: block; }
+        .en-content { display: none; }
+
+        body.lang-en .he-content { display: none; }
+        body.lang-en .en-content { display: block; }
+        body.lang-en { direction: ltr; }
+
+        /* Smooth scrolling */
+        html { scroll-behavior: smooth; }
+
+        /* Focus states for keyboard navigation */
+        .lang-btn:focus-visible {
+            outline: 2px solid var(--gold-light);
+            outline-offset: 2px;
+        }
+
+        .link-item:focus-visible {
+            outline: 2px solid var(--gold-light);
+            outline-offset: 2px;
+            background: rgba(197, 165, 90, 0.15);
+        }
+
+        /* Skip to content link */
+        .skip-link {
+            position: absolute;
+            top: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--navy);
+            color: var(--gold-light);
+            padding: 12px 24px;
+            border-radius: 0 0 8px 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            z-index: 2000;
+            text-decoration: none;
+            transition: top 0.2s;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Fade-in animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive — tablet */
+        @media (max-width: 1024px) {
+            .image-grid { grid-template-columns: repeat(2, 1fr); }
+            .links-grid { grid-template-columns: repeat(2, 1fr); }
+            .legacy-items { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        /* Responsive — mobile */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .hero .en-name { font-size: 1.3rem; }
+            .section { padding: 50px 20px; }
+            .section-title { font-size: 1.5rem; }
+            .hero-portrait { width: 160px; height: 160px; }
+            .video-grid { grid-template-columns: 1fr; }
+            .image-grid { grid-template-columns: 1fr; }
+            .links-grid { grid-template-columns: 1fr; }
+            .legacy-items { grid-template-columns: 1fr; }
+        }
+
+        /* Print styles */
+        @media print {
+            .lang-toggle, .scroll-indicator { display: none; }
+            .he-content, .en-content { display: block !important; }
+            .hero { min-height: auto; padding: 40px 20px; }
+            .section { padding: 30px 20px; }
+            body { color: #000; }
+            .military-section, .battle-section, .links-section, .memorial-footer {
+                background: #fff; color: #000;
+            }
+            .military-section .section-title, .battle-section .section-title,
+            .links-section .section-title { color: #000; }
+            .military-text, .battle-text { color: #333; }
+            .highlight-box { border-color: #666; }
+            .highlight-box p { color: #333; font-style: italic; }
+            .video-section { display: none; }
+            a { color: #000; text-decoration: underline; }
+        }
+    </style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to content</a>
+
+<!-- Language Toggle -->
+<nav class="lang-toggle" aria-label="Language selector">
+    <button class="lang-btn active" onclick="setLang('he')" id="btn-he" aria-pressed="true" lang="he">עברית</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en" aria-pressed="false" lang="en">English</button>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KerenPhoto.jpg/250px-KerenPhoto.jpg"
+             alt="קרן טנדלר — תמונת פורטרט | Keren Tendler — portrait photo" class="hero-portrait"
+             width="250" height="250" fetchpriority="high">
+
+        <div class="he-content">
+            <h1>קרן טנדלר ז"ל</h1>
+            <div class="en-name">Keren Tendler</div>
+            <div class="dates">26.9.1979 - 12.8.2006</div>
+            <div class="hebrew-dates">ה' בתשרי ה'תש"ם — י"ט באב ה'תשס"ו</div>
+            <p class="epitaph">המכונאית המוטסת הראשונה במערך המסוקים הכבדים של חיל האוויר הישראלי</p>
+            <p class="epitaph-en">Israel's First Female Helicopter Flight Mechanic</p>
+        </div>
+
+        <div class="en-content">
+            <h1 style="font-family: 'Playfair Display', serif;">Keren Tendler</h1>
+            <div class="en-name" style="font-family: 'Frank Ruhl Libre', serif;">קרן טנדלר ז"ל</div>
+            <div class="dates">September 26, 1979 — August 12, 2006</div>
+            <div class="hebrew-dates">ה' בתשרי ה'תש"ם — י"ט באב ה'תשס"ו</div>
+            <p class="epitaph" style="font-family: 'Playfair Display', serif; font-size: 1.2rem;">Israel's First Female Helicopter Flight Mechanic</p>
+            <p class="epitaph-en" style="font-family: 'Frank Ruhl Libre', serif;">המכונאית המוטסת הראשונה במערך המסוקים הכבדים</p>
+        </div>
+    </div>
+
+    <div class="scroll-indicator" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+    </div>
+</section>
+
+<!-- Biography - Hebrew -->
+<section class="bio-section he-content" id="main-content">
+    <div class="section">
+        <h2 class="section-title">ביוגרפיה</h2>
+        <div class="bio-text">
+            <p>
+                קרן טנדלר נולדה ב-26 בספטמבר 1979 ברחובות, לריבונה ודן טנדלר. גדלה ברחובות עם אח אחד.
+                קרן הייתה שחיינית תחרותית מקצועית, התאמנה בקבוצת מכבי "ויסגל" רחובות ובקבוצת "מאסטרס" יפורה,
+                וזכתה במדליות רבות בתחרויות שחייה.
+            </p>
+            <p>
+                למדה בבית הספר התיכון אורט ברחובות במגמת עיצוב ובנייה בעזרת מחשב (CAD/CAM).
+                בשנת 1999 סיימה את כיתות י"ג-י"ד במכללת אורט וקיבלה תעודת הנדסאי מכונות.
+                לאחר שירותה הצבאי החלה ללמוד משפטים במכללת קולמן.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Biography - English -->
+<section class="bio-section en-content">
+    <div class="section">
+        <h2 class="section-title section-title-en">Biography</h2>
+        <div class="bio-text bio-text-en">
+            <p>
+                Keren Tendler was born on September 26, 1979 in Rehovot, Israel, to Rivona and Dan Tendler.
+                She grew up in Rehovot with one brother. Of Romanian-Jewish descent, Keren was a professional
+                competitive swimmer, training with Maccabi "Weissgel" Rehovot and the "Masters" Yafora groups,
+                winning multiple medals in swimming competitions.
+            </p>
+            <p>
+                She studied at Ort Rehovot High School in the Computer-Aided Design and Manufacturing (CAD/CAM) track.
+                In 1999, she completed grades 13-14 at Ort Collegiate and earned a Mechanical Engineering diploma.
+                After her military service, she began studying law at Colman Academic College.
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Military Service - Hebrew -->
+<section class="military-section he-content">
+    <div class="section">
+        <h2 class="section-title">שירות צבאי</h2>
+        <div class="military-text">
+            <p>
+                קרן התגייסה לצה"ל ביולי 1997 לקורס קדם-קצינאי. בשנת 2000 הצטרפה לחיל האוויר הישראלי,
+                סיימה את קורס המכונאים בבית הספר הטכני בחיפה והוצבה בבסיס תל נוף.
+            </p>
+            <p>
+                באותה שנה השתתפה במשימת כיבוי שריפות ביוון, שם זכתה לסיקור תקשורתי מקומי.
+            </p>
+
+            <div class="highlight-box">
+                <p>בינואר 2001 החלה בהכשרה לקורס מכונאית מוטסת. בשנת 2002 סיימה את הקורס בן 8 החודשים
+                כמשתתפת היחידה — והפכה למכונאית המוטסת הראשונה במערך המסוקים הכבדים יסעו"ר (CH-53) של חיל האוויר.</p>
+            </div>
+
+            <p>
+                קרן קיבלה כנפי מכונאית מוטסת והסמכת צניחה, ושובצה לטייסת 114 — טייסת המסוקים הכבדים.
+                שירתה בשירות סדיר עד שנת 2005 בדרגת רב"ט ראשון.
+            </p>
+        </div>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/IAF_CH-53.jpg/500px-IAF_CH-53.jpg"
+             alt="מסוק CH-53 יסעור של חיל האוויר הישראלי | IAF CH-53 Sea Stallion (Yas'ur) Helicopter"
+             class="helicopter-img" loading="lazy" width="500" height="333"
+             style="max-width: 500px;">
+        <p style="text-align: center; color: rgba(255,255,255,0.5); font-size: 0.85rem; margin-top: 10px;">
+            מסוק CH-53 יסעו"ר של חיל האוויר הישראלי — המסוק עליו שירתה קרן
+        </p>
+    </div>
+</section>
+
+<!-- Military Service - English -->
+<section class="military-section en-content">
+    <div class="section">
+        <h2 class="section-title section-title-en">Military Service</h2>
+        <div class="military-text military-text-en">
+            <p>
+                Keren enlisted in the IDF in July 1997 for preliminary officer training. In 2000, she joined the
+                Israeli Air Force, completed the mechanic course at the Technical School in Haifa, and was stationed
+                at Tel Nof Air Base.
+            </p>
+            <p>
+                That same year, she participated in a firefighting mission in Greece, where she received local media coverage.
+            </p>
+
+            <div class="highlight-box">
+                <p style="font-family: 'Playfair Display', serif;">In January 2001, she began training for the flight mechanic course.
+                In 2002, she completed the grueling 8-month course as the only female participant — becoming
+                Israel's first female flight mechanic in the heavy helicopter CH-53 Sea Stallion (Yas'ur) fleet.</p>
+            </div>
+
+            <p>
+                Keren received her flight mechanic wings and parachute certification, and was assigned to
+                Squadron 114 — the heavy helicopter squadron. She served in regular service until 2005,
+                reaching the rank of First Sergeant (Rav Samal Rishon).
+            </p>
+        </div>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/IAF_CH-53.jpg/250px-IAF_CH-53.jpg"
+             alt="IAF CH-53 Sea Stallion (Yas'ur) Helicopter" class="helicopter-img"
+             style="max-width: 500px;">
+        <p style="text-align: center; color: rgba(255,255,255,0.5); font-size: 0.85rem; margin-top: 10px;">
+            IAF CH-53 Sea Stallion (Yas'ur) — the helicopter Keren served on
+        </p>
+    </div>
+</section>
+
+<!-- Timeline - Hebrew -->
+<section class="timeline-section he-content">
+    <div class="section">
+        <h2 class="section-title">ציר זמן</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">1979</div>
+                <div class="timeline-text">נולדה ברחובות, ה' בתשרי ה'תש"ם</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1997</div>
+                <div class="timeline-text">התגייסה לצה"ל — קורס קדם-קצינאי</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1999</div>
+                <div class="timeline-text">סיימה לימודי הנדסאי מכונות במכללת אורט</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2000</div>
+                <div class="timeline-text">הצטרפה לחיל האוויר — הוצבה בבסיס תל נוף — משימת כיבוי ביוון</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2001</div>
+                <div class="timeline-text">החלה בקורס מכונאית מוטסת</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2002</div>
+                <div class="timeline-text">סיימה את הקורס כמשתתפת היחידה — הפכה למכונאית המוטסת הראשונה במסוקים הכבדים</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2005</div>
+                <div class="timeline-text">שוחררה משירות סדיר בדרגת רב"ט ראשון</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">אוגוסט 2006</div>
+                <div class="timeline-text">גויסה לשירות מילואים במלחמת לבנון השנייה</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">11 באוגוסט 2006</div>
+                <div class="timeline-text">החלה בטיסות מבצעיות מעבר לגבול לבנון</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">12 באוגוסט 2006</div>
+                <div class="timeline-text">נפלה בקרב — המסוק נפגע מטיל חיזבאללה בדרום לבנון</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Timeline - English -->
+<section class="timeline-section en-content">
+    <div class="section">
+        <h2 class="section-title section-title-en">Timeline</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-year">1979</div>
+                <div class="timeline-text timeline-text-en">Born in Rehovot, Israel</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1997</div>
+                <div class="timeline-text timeline-text-en">Enlisted in the IDF — preliminary officer training</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">1999</div>
+                <div class="timeline-text timeline-text-en">Completed Mechanical Engineering diploma at Ort Collegiate</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2000</div>
+                <div class="timeline-text timeline-text-en">Joined the Israeli Air Force — stationed at Tel Nof — firefighting mission in Greece</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2001</div>
+                <div class="timeline-text timeline-text-en">Began flight mechanic training course</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2002</div>
+                <div class="timeline-text timeline-text-en">Completed the course as the only female participant — became Israel's first female heavy helicopter flight mechanic</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">2005</div>
+                <div class="timeline-text timeline-text-en">Discharged from regular service as First Sergeant</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">August 2006</div>
+                <div class="timeline-text timeline-text-en">Called up for reserve duty in the Second Lebanon War</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">August 11, 2006</div>
+                <div class="timeline-text timeline-text-en">Began operational flights across the Lebanon border</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-year">August 12, 2006</div>
+                <div class="timeline-text timeline-text-en">Fell in battle — helicopter struck by Hezbollah missile in southern Lebanon</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Last Battle - Hebrew -->
+<section class="battle-section he-content">
+    <div class="section">
+        <h2 class="section-title">הקרב האחרון</h2>
+        <div class="battle-text">
+            <p>
+                עם פרוץ מלחמת לבנון השנייה ביולי 2006, גויסה קרן לשירות מילואים בטייסת 114.
+                בתחילה נמנע ממנה לטוס בטיסות קרביות מעבר לגבול בשל מינה. קרן מחתה על האפליה ולאחר מאבק אישי
+                אושר לה לצאת לטיסות מבצעיות.
+            </p>
+            <p>
+                ב-11 באוגוסט 2006 החלה קרן לטוס בטיסות מבצעיות מעבר לגבול לבנון.
+            </p>
+            <p>
+                ב-12 באוגוסט 2006, יומיים לפני הפסקת האש, במהלך מבצע "שינוי כיוון 11",
+                המסוק שלה ביצע הנחתת כוחות בשטח לבנון. לאחר הורדת הלוחמים, בעת ההמראה,
+                נפגע המסוק מטיל של חיזבאללה והתרסק בוואדי בשטח האויב.
+                כל חמשת אנשי הצוות נהרגו.
+            </p>
+            <p>
+                שלושה ימים לאחר ההתרסקות נמצאו שרידיה מתחת לזנב המסוק. כוחות מיוחדים —
+                שייטת 13, יחידה 669 ויחידת דובדבן — חילצו את גופתה במבצע לילי ממושך
+                בין ה-15 ל-16 באוגוסט, ונשאו אותה בשטח קשה בחזרה לשטח ישראל.
+            </p>
+            <p>
+                קרן נטמנה ב-16 באוגוסט 2006 בבית העלמין הצבאי ברחובות.
+                היא הייתה האישה היחידה שנהרגה בלחימה במלחמת לבנון השנייה.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Last Battle - English -->
+<section class="battle-section en-content">
+    <div class="section">
+        <h2 class="section-title section-title-en">The Last Battle</h2>
+        <div class="battle-text battle-text-en">
+            <p>
+                When the Second Lebanon War broke out in July 2006, Keren was called up for reserve duty
+                with Squadron 114. Initially, she was prevented from flying combat missions beyond the border
+                due to her gender. Keren protested the discrimination, and after a personal struggle,
+                was approved for operational flights.
+            </p>
+            <p>
+                On August 11, 2006, Keren began flying operational missions across the Lebanon border.
+            </p>
+            <p>
+                On August 12, 2006 — just two days before the ceasefire — during Operation Change of Direction 11,
+                her helicopter was conducting a troop insertion in Lebanese territory. After dropping off the forces,
+                during takeoff, the helicopter was struck by a Hezbollah missile and crashed in a wadi
+                in enemy territory. All five crew members were killed.
+            </p>
+            <p>
+                Three days after the crash, her remains were found beneath the helicopter's tail section.
+                Special forces — Shayetet 13, Unit 669, and the Duvdevan Unit — recovered her body during
+                an extended night operation on August 15-16, carrying her remains across difficult terrain
+                back to Israeli territory.
+            </p>
+            <p>
+                Keren was buried on August 16, 2006, at the Military Cemetery in Rehovot.
+                She was the only woman killed in combat operations during the Second Lebanon War.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Images -->
+<section class="image-section">
+    <div class="section">
+        <div class="he-content"><h2 class="section-title">תמונות</h2></div>
+        <div class="en-content"><h2 class="section-title section-title-en">Gallery</h2></div>
+
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KerenPhoto.jpg/500px-KerenPhoto.jpg"
+                     alt="קרן טנדלר בקורס מכונאים מוטסים, 2002 | Keren Tendler during flight mechanics course, 2002"
+                     loading="lazy" width="500" height="500">
+                <div class="he-content">
+                    <div class="caption">קרן טנדלר בקורס מכונאים מוטסים, 2002</div>
+                </div>
+                <div class="en-content">
+                    <div class="caption caption-en">Keren Tendler during the flight mechanics course, 2002</div>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/PikiWiki_Israel_13819_Keren_Tendler_Garden_in_Rehovot.JPG/500px-PikiWiki_Israel_13819_Keren_Tendler_Garden_in_Rehovot.JPG"
+                     alt="שלט בגן הספורט על שם קרן טנדלר ברחובות | Sign at Keren Tendler Sports Garden in Rehovot"
+                     loading="lazy" width="500" height="375">
+                <div class="he-content">
+                    <div class="caption">שלט בגן הספורט על שם קרן טנדלר ברחובות</div>
+                </div>
+                <div class="en-content">
+                    <div class="caption caption-en">Sign at the Keren Tendler Sports Garden in Rehovot</div>
+                </div>
+            </div>
+            <div class="image-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/PikiWiki_Israel_13820_Keren_Tendler_Garden_in_Rehovot.JPG/500px-PikiWiki_Israel_13820_Keren_Tendler_Garden_in_Rehovot.JPG"
+                     alt="גן קרן טנדלר ברחובות | Keren Tendler Garden in Rehovot"
+                     loading="lazy" width="500" height="375">
+                <div class="he-content">
+                    <div class="caption">גן קרן טנדלר ברחובות</div>
+                </div>
+                <div class="en-content">
+                    <div class="caption caption-en">Keren Tendler Garden in Rehovot</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Videos -->
+<section class="video-section">
+    <div class="section">
+        <div class="he-content"><h2 class="section-title">סרטונים</h2></div>
+        <div class="en-content"><h2 class="section-title section-title-en">Videos</h2></div>
+
+        <!-- Featured Memorial Video -->
+        <div class="video-card" style="margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+            <div class="video-wrapper" style="padding-bottom: 56.25%; position: relative; height: 0;">
+                <video controls preload="metadata" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px 12px 0 0;"
+                       poster="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KerenPhoto.jpg/500px-KerenPhoto.jpg">
+                    <source src="keren_tendler_memorial.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="he-content">
+                <div class="video-title">סרטון הנצחה לקרן טנדלר — 60 שניות</div>
+            </div>
+            <div class="en-content">
+                <div class="video-title video-title-en">Keren Tendler Memorial Video — 60 seconds</div>
+            </div>
+        </div>
+
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/OsIsiIGvk4o"
+                            title="מים שקטים - Silent Waters"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="he-content">
+                    <div class="video-title">מים שקטים — סרט לזכרה של קרן טנדלר</div>
+                </div>
+                <div class="en-content">
+                    <div class="video-title video-title-en">Silent Waters — A film in memory of Keren Tendler</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/ruTKdG3nFbo"
+                            title="אירוע הנצחה לזכר קרן טנדלר 2017"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="he-content">
+                    <div class="video-title">אירוע הנצחה לזכר קרן טנדלר, 2017</div>
+                </div>
+                <div class="en-content">
+                    <div class="video-title video-title-en">Keren Tendler Memorial Event, 2017</div>
+                </div>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/iUQaV6qQNu4"
+                            title="נגעה בשמיים — Touched the Sky"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="he-content">
+                    <div class="video-title">נגעה בשמיים — סרט תיעודי על קרן טנדלר</div>
+                </div>
+                <div class="en-content">
+                    <div class="video-title video-title-en">Touched the Sky — Documentary about Keren Tendler</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Legacy - Hebrew -->
+<section class="legacy-section he-content">
+    <div class="section">
+        <h2 class="section-title">הנצחה ומורשת</h2>
+        <div class="legacy-items">
+            <div class="legacy-card">
+                <h3>גן קרן טנדלר</h3>
+                <p>מתקן ספורט שהוקם ברחובות לזכרה. הגן משמש את תושבי העיר ונושא את שמה של קרן.</p>
+            </div>
+            <div class="legacy-card">
+                <h3>גביע קרן טנדלר</h3>
+                <p>תחרות שחייה שנתית לשחיינים צעירים ומאסטרס, נערכת מדי שנה מאז 2016 לזכרה של קרן.</p>
+            </div>
+            <div class="legacy-card">
+                <h3>קרן מלגות קרן טנדלר</h3>
+                <p>קרן מלגות שהוקמה לתמיכה בנשים צעירות הרודפות אחר קריירה כמכונאיות טיסה.</p>
+            </div>
+            <div class="legacy-card">
+                <h3>פורצת דרך</h3>
+                <p>קרן סללה את הדרך לנשים בתפקידים קרביים בחיל האוויר הישראלי. היא הייתה האישה הראשונה במערך המסוקים הכבדים.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Legacy - English -->
+<section class="legacy-section en-content">
+    <div class="section">
+        <h2 class="section-title section-title-en">Legacy & Memorials</h2>
+        <div class="legacy-items">
+            <div class="legacy-card">
+                <h3 class="en">Keren Tendler Garden</h3>
+                <p class="en">A sports facility established in Rehovot in her memory, serving the city's residents and bearing her name.</p>
+            </div>
+            <div class="legacy-card">
+                <h3 class="en">Keren Tendler Cup</h3>
+                <p class="en">An annual swimming competition for junior and masters swimmers, held every year since 2016 in her memory.</p>
+            </div>
+            <div class="legacy-card">
+                <h3 class="en">Keren Tendler Scholarship Fund</h3>
+                <p class="en">A scholarship fund created to support young women pursuing careers as flight mechanics.</p>
+            </div>
+            <div class="legacy-card">
+                <h3 class="en">Trailblazer</h3>
+                <p class="en">Keren paved the way for women in combat roles in the Israeli Air Force. She was the first woman in the heavy helicopter fleet.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- External Links -->
+<section class="links-section">
+    <div class="section">
+        <div class="he-content"><h2 class="section-title">קישורים</h2></div>
+        <div class="en-content"><h2 class="section-title section-title-en">External Links</h2></div>
+
+        <div class="links-grid">
+            <a href="https://www.izkor.gov.il/%D7%A7%D7%A8%D7%9F%20%D7%98%D7%A0%D7%93%D7%9C%D7%A8/en_8327c0886440445d72a3e498e8cd244d" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                </div>
+                <span class="link-text">IZkor - Ministry of Defense Memorial</span>
+            </a>
+            <a href="https://www.colman.ac.il/commemorative_page/keren_tendler/" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 6 3 6 3s3 0 6-3v-5"></path></svg>
+                </div>
+                <span class="link-text">Colman Academic College Memorial</span>
+            </a>
+            <a href="https://www.ynet.co.il/articles/0,7340,L-3290529,00.html" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"></path></svg>
+                </div>
+                <span class="link-text">Ynet News Report (August 2006)</span>
+            </a>
+            <a href="https://www.ynet.co.il/news/article/yokra14741584" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"></path></svg>
+                </div>
+                <span class="link-text">Ynet Biographical Article</span>
+            </a>
+            <a href="https://www.haaretz.co.il/1.2939844" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"></path></svg>
+                </div>
+                <span class="link-text">Haaretz Article</span>
+            </a>
+            <a href="https://www.globes.co.il/news/article.aspx?did=1001540613" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 002-2V4a2 2 0 00-2-2H8a2 2 0 00-2 2v16a2 2 0 01-2 2zm0 0a2 2 0 01-2-2v-9c0-1.1.9-2 2-2h2"></path></svg>
+                </div>
+                <span class="link-text">Globes Article</span>
+            </a>
+            <a href="https://www.facebook.com/KerenTendlerGarden/" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path></svg>
+                </div>
+                <span class="link-text">Keren Tendler Garden — Facebook</span>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Keren_Tendler" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path></svg>
+                </div>
+                <span class="link-text">Wikipedia (English)</span>
+            </a>
+            <a href="https://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%9F_%D7%98%D7%A0%D7%93%D7%9C%D7%A8" target="_blank" rel="noopener" class="link-item">
+                <div class="link-icon">
+                    <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path></svg>
+                </div>
+                <span class="link-text">Wikipedia (Hebrew)</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="memorial-footer">
+    <div class="candle">🕯</div>
+    <div class="he-content">
+        <div class="memorial-text">תהא נשמתה צרורה בצרור החיים</div>
+        <div class="memorial-text-en">May her memory be a blessing</div>
+    </div>
+    <div class="en-content">
+        <div class="memorial-text" style="font-family: 'Playfair Display', serif;">May Her Memory Be a Blessing</div>
+        <div class="memorial-text-en" style="font-family: 'Frank Ruhl Libre', serif;">תהא נשמתה צרורה בצרור החיים</div>
+    </div>
+    <div class="dates-footer">1979 — 2006</div>
+</footer>
+
+<script>
+    function setLang(lang) {
+        document.body.classList.toggle('lang-en', lang === 'en');
+        var btnHe = document.getElementById('btn-he');
+        var btnEn = document.getElementById('btn-en');
+        btnHe.classList.toggle('active', lang === 'he');
+        btnEn.classList.toggle('active', lang === 'en');
+        btnHe.setAttribute('aria-pressed', lang === 'he');
+        btnEn.setAttribute('aria-pressed', lang === 'en');
+        document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
+        document.documentElement.lang = lang;
+    }
+
+    // Fade-in on scroll
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.section-title, .image-card, .legacy-card, .video-card, .link-item').forEach(function(el) {
+        el.classList.add('fade-in');
+        observer.observe(el);
+    });
+</script>
+
+</body>
+</html>
