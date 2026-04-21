@@ -730,6 +730,8 @@
 
 <a href="#main-content" class="skip-link">Skip to content</a>
 
+<main id="main-content">
+
 <!-- Language Toggle -->
 <nav class="lang-toggle" aria-label="Language selector">
     <button class="lang-btn active" onclick="setLang('he')" id="btn-he" aria-pressed="true" lang="he">עברית</button>
@@ -770,7 +772,7 @@
 </section>
 
 <!-- Biography - Hebrew -->
-<section class="bio-section he-content" id="main-content">
+<section class="bio-section he-content">
     <div class="section">
         <h2 class="section-title">ביוגרפיה</h2>
         <div class="bio-text">
@@ -871,9 +873,9 @@
             </p>
         </div>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/IAF_CH-53.jpg/250px-IAF_CH-53.jpg"
-             alt="IAF CH-53 Sea Stallion (Yas'ur) Helicopter" class="helicopter-img"
-             style="max-width: 500px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/IAF_CH-53.jpg/500px-IAF_CH-53.jpg"
+             alt="IAF CH-53 Sea Stallion (Yas'ur) Helicopter" class="helicopter-img" loading="lazy"
+             width="500" height="333" style="max-width: 500px;">
         <p style="text-align: center; color: rgba(255,255,255,0.5); font-size: 0.85rem; margin-top: 10px;">
             IAF CH-53 Sea Stallion (Yas'ur) — the helicopter Keren served on
         </p>
@@ -1100,6 +1102,7 @@
                 <video controls preload="metadata" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px 12px 0 0;"
                        poster="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/KerenPhoto.jpg/500px-KerenPhoto.jpg">
                     <source src="keren_tendler_memorial.mp4" type="video/mp4">
+                    Your browser does not support the video element. / הדפדפן שלך אינו תומך בתגית וידאו.
                 </video>
             </div>
             <div class="he-content">
@@ -1272,6 +1275,8 @@
     </div>
 </section>
 
+</main>
+
 <!-- Footer -->
 <footer class="memorial-footer">
     <div class="candle">🕯</div>
@@ -1297,7 +1302,14 @@
         btnEn.setAttribute('aria-pressed', lang === 'en');
         document.documentElement.dir = lang === 'he' ? 'rtl' : 'ltr';
         document.documentElement.lang = lang;
+        try { localStorage.setItem('keren-memorial-lang', lang); } catch(e) {}
     }
+
+    // Restore saved language preference
+    try {
+        var saved = localStorage.getItem('keren-memorial-lang');
+        if (saved === 'en') { setLang('en'); }
+    } catch(e) {}
 
     // Fade-in on scroll
     var observer = new IntersectionObserver(function(entries) {
